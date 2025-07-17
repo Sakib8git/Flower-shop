@@ -1,0 +1,137 @@
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  
+  font-style: normal;
+}
+* {
+  margin: 0;
+}
+section{
+    margin-bottom: 178px;
+}
+.max-width {
+  max-width: 1920px;
+}
+.title-color-primary {
+  color: #272727;
+}
+.title-color-secondary {
+  color: #e55473;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 3.2rem;
+    color: #272727;
+}
+.section-discription {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #27272799;
+}
+.button-primary {
+  width: 177px;
+  height: 64px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.button-primary:hover{
+    transform: translateY(-2px);
+    transition: .2s ease-in-out;
+    background-color: rgb(97, 250, 248);
+    color: #000000;
+    box-shadow: 10px 10px 25px -4px rgba(0,0,0,0.51);
+-webkit-box-shadow: 10px 10px 25px -4px rgba(0,0,0,0.51);
+-moz-box-shadow: 10px 10px 25px -4px rgba(0,0,0,0.51);
+}
+.banner-color {
+  background-color: #e554731a;
+}
+.flower-bg1 {
+  background-color: #a7216226;
+  padding-left: 78px;
+    padding-right: 78px;
+}
+.flower-bg2 {
+  background-color: #0597a026;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.flower-bg3 {
+  background-color: #477d1126;
+  padding-left: 90px;
+    padding-right: 90px;
+}
+.icon-bg {
+  background-color: #2727270d;
+}
+.sale-bg {
+  background: #e554730d;
+}
+.footer-bg {
+  background-color: #272727;
+}
+/* shared */
+
+/* custom */
+
+.banner-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-discription {
+  margin-right: 97px;
+  margin-left: 240px;
+  margin-top: 197px;
+  max-width: 708px;
+}
+.banner-title {
+  font-size: 5rem;
+  margin-bottom: 32px;
+}
+.banner-discription {
+  max-width: 634px;
+  /* max-width: 100%; */
+  font-size: 1rem;
+  font-weight: 400;
+  color: #27272799;
+  margin-bottom: 32px;
+}
+.banner_but{
+    margin-bottom: 167px;
+}
+
+.banner-img{
+    max-width: 100%;
+    margin-top: 50px;
+    margin-right: 240px;
+}
+/* fetured */
+
+.fetured-img-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    
+}
+.fetured-flower-img{
+    
+    border-radius: 300px 300px 0px 0px;
+    
+}
+.fetured-flower-img img{
+    max-width: 100%;
+    padding-top: 110px;
+    box-sizing: border-box;
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+}
