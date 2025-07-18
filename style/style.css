@@ -38,7 +38,7 @@ section {
   width: 177px;
   height: 64px;
   border-radius: 8px;
-  background: rgb(229, 84, 115);
+  background: #e55473;
   color: white;
   font-size: 20px;
   font-weight: 700;
@@ -48,7 +48,7 @@ section {
 .button-primary:hover {
   transform: translateY(-2px);
   transition: 0.2s ease-in-out;
-  background-color: rgb(97, 250, 248);
+  background-color: #ADEED9;
   color: #000000;
   box-shadow: 10px 10px 25px -4px rgba(0, 0, 0, 0.51);
   -webkit-box-shadow: 10px 10px 25px -4px rgba(0, 0, 0, 0.51);
@@ -149,6 +149,11 @@ section {
   max-width: 594px;
   margin: 0 auto;
 }
+.ful-sadow:hover{
+  filter: drop-shadow(5px 5px 10px #000000);
+  transition: .2s;
+  transform: translateY(-2px);
+}
 
 /* icon part */
 .icons-con {
@@ -188,6 +193,17 @@ section {
   gap: 24px;
   justify-content: center;
   align-items: center;
+}
+.insta-shadow{
+  border-radius: 10px;
+ 
+}
+.insta-shadow:hover{
+ box-shadow: 13px 9px 21px -8px rgba(0,0,0,0.52);
+-webkit-box-shadow: 13px 9px 21px -8px rgba(0,0,0,0.52);
+-moz-box-shadow: 13px 9px 21px -8px rgba(0,0,0,0.52);
+  transition: .2s;
+  transform: translateY(-2px);
 }
 
 /* latest deal */
