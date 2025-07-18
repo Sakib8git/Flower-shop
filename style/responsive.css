@@ -56,6 +56,20 @@
     margin: 48px 40px;
   }
 
+  .latest-con{
+    
+  }
+  .latest-title{
+  padding-top: 80px;
+
+}
+  .latest-form{
+    padding: 0 10px;
+  }
+  input[type="email"]{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 576.1px) and (max-width: 992px) {
@@ -94,6 +108,10 @@
   .insta-img-con{
     grid-template-columns: repeat(2, 1fr);
     margin: 48px 80px;
+  }
+
+  .form-con{
+    flex-direction: column;
   }
 }
 
