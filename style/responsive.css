@@ -1,13 +1,19 @@
 @media screen and (max-width: 576px) {
   .banner-con {
     flex-direction: column;
+    text-align: center;
   }
   .title-discription {
-    margin: 30px 20px;
+    /* margin: 30px 20px; */
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
   .banner-title {
     font-size: 3rem;
     max-width: 400px;
+    /* text-align: center; */
   }
   .banner-discription {
     max-width: 360px;
@@ -26,6 +32,30 @@
     flex-direction: column !important;
     margin: 0 20px;
   }
+
+  .icon-section{
+    padding-top: 120px;
+  }
+  .icons-con{
+    flex-direction: column;
+  }
+  .icons-con{
+    max-height:100% ;
+  }
+
+  .sale-con{
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+    padding-top: 100px;
+    gap: 50px;
+  }
+
+  .insta-img-con{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 48px 40px;
+  }
+
 }
 
 @media screen and (min-width: 576.1px) and (max-width: 992px) {
@@ -51,6 +81,19 @@
 
   .fetured-img-con {
     flex-direction: column !important;
+  }
+
+  .sale-con{
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+    padding-top: 100px;
+    gap: 50px;
+  }
+
+  .insta-img-con{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 48px 80px;
   }
 }
 

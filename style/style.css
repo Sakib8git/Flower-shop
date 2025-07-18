@@ -6,6 +6,9 @@
 * {
   margin: 0;
 }
+.text-center{
+  text-align: center;
+}
 section{
     margin-bottom: 178px;
 }
@@ -23,11 +26,13 @@ section{
     text-align: center;
     font-size: 3.2rem;
     color: #272727;
+    margin-bottom: 24px;
 }
 .section-discription {
   text-align: center;
   font-size: 1.5rem;
   color: #27272799;
+  font-size: 1.15rem;
 }
 .button-primary {
   width: 177px;
@@ -134,4 +139,56 @@ section{
     box-sizing: border-box;
     border-radius: 300px 300px 0px 0px;
     height: 538px;
+}
+.fetured_flower_text{
+  font-size: 1.3rem;
+font-weight: 700;
+padding-top: 32px;
+border-bottom: 1px solid #272727d7;
+max-width: 160px;
+margin: 0 auto;
+}
+.fetured-discription {
+  max-width: 594px;
+  margin: 0 auto;
+}
+
+/* icon part */
+.icons-con{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  max-width: 1440px;
+  height: 320px;
+  margin: 0 auto;
+}
+.icon-text{
+  margin-top: 24px;
+}
+
+/* sale part */
+.sale-con{
+  display: flex;
+  gap: 180px;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 300px;
+}
+.sale-title{
+  margin-bottom: 24px;
+}
+.sale-text{
+  margin-bottom: 32px;
+}
+
+/* insta part */
+.insta-img-con{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 48px 240px;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
